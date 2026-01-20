@@ -1,0 +1,42 @@
+{
+  "dataset": "Q47 Prime Statistics",
+  "polynomial": "Q(n) = n^47 - (n-1)^47",
+  "github": "https://github.com/Ruqing1963/Ouroboros-Prime-Condensate",
+  "analysis_date": "2026-01-20",
+  
+  "prime_counts": {
+    "total_primes_verified": 18356706,
+    "range_analyzed": "[3e8, 2e9]",
+    "mean_spacing": 112.23
+  },
+  
+  "quadruplets": {
+    "total_found": 15,
+    "pattern": "(0, 2, 6, 8)",
+    "correlation_with_riemann_zeros": {
+      "pearson_r": 0.967,
+      "p_value": 4e-9,
+      "interpretation": "Highly significant correlation"
+    }
+  },
+  
+  "spectral_statistics": {
+    "variance_s": {"observed": 0.99, "poisson": 1.00, "gue": 0.29},
+    "sigma2_L100": {"observed": 101, "poisson": 100, "gue": 1.4},
+    "delta3_L100": {"observed": 6.80, "poisson": 6.67, "gue": 0.58},
+    "classification": "POISSON"
+  },
+  
+  "dual_scale_model": {
+    "background": "Poisson (individual primes)",
+    "condensate": "GUE-like (quadruplets)",
+    "condensate_fraction": 1.7e-6,
+    "interpretation": "Selective condensation - bound states correlate with Riemann zeros while singles remain thermal"
+  },
+  
+  "publications": {
+    "dataset_doi": "10.5281/zenodo.18305185",
+    "ouroboros_paper_doi": "10.5281/zenodo.18306984",
+    "entropy_paper_doi": "10.5281/zenodo.18259473"
+  }
+}
