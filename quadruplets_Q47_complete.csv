@@ -1,0 +1,27 @@
+# Q47 Prime Quadruplets: Complete Dataset
+# ========================================
+# Polynomial: Q(n) = n^47 - (n-1)^47
+# Pattern: (0, 2, 6, 8) admissible quadruplet
+# Correlation with Riemann zeros: r = 0.967 (p < 10^-8)
+#
+# A quadruplet at n means Q(n), Q(n+2), Q(n+6), Q(n+8) are ALL prime
+#
+# Source: Chen, R. (2026)
+# GitHub: https://github.com/Ruqing1963/Ouroboros-Prime-Condensate
+#
+k,n,log_n,gamma_k,note
+1,23159557,16.958,14.135,initial sample
+2,117309848,18.580,21.022,from 100M-300M
+3,136584738,18.732,25.011,from 100M-300M
+4,218787064,19.204,30.425,from 100M-300M
+5,411784485,19.836,32.935,
+6,423600750,19.864,37.586,
+7,523331634,20.076,40.919,
+8,640399031,20.278,43.327,
+9,987980498,20.711,48.005,
+10,1163461515,20.875,49.774,
+11,1370439187,21.038,52.970,
+12,1643105964,21.220,56.446,deep-space burst I
+13,1691581855,21.249,59.347,deep-space burst II
+14,1975860550,21.404,60.832,from 1.9B-2B
+15,1996430175,21.415,65.113,limit coordinate
